@@ -1,0 +1,87 @@
+
+form {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+  
+  }
+  
+  input[type="number"] {
+    width: 120px;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+
+ 
+.adi-indicator {
+ 
+
+    top: 35%;
+    width: 200px; 
+    height: 200px;
+    border-radius: 250%; 
+    position: absolute;
+    left: 90%;
+    transform: translateX(-50%);
+}
+.absolute{
+    left: 10%;
+}
+
+table {
+
+
+    background-color:#ccc;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 30px; /* הוספתי מקסימום רוחב */
+}
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    padding: 80px; 
+}
+/* body{
+    background-image: url("67-1.jpg");
+
+} */
+#b12{
+  width: 150px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+
+
+}
+#l{
+
+right: 10%;
+
+}
+.button {
+  background-color: #4c7aaf; /* צבע רקע */
+  border: none; /* ללא מסגרת */
+  color: white; /* צבע טקסט */
+  padding: 10px 20px; /* רווחים בתוך הכפתור */
+  text-align: center; /* מרכוז את הטקסט בתוך הכפתור */
+  text-decoration: none; /* ללא קו תחתון */
+  display: inline-block; /* הצגה כבלוק נכנס */
+  font-size: 16px; /* גודל הגופן */
+  margin: 4px 2px; /* מרווח בין הכפתורים */
+  cursor: pointer; /* סמן מצב שובה תשומת לב */
+  border-radius: 8px; /* פינות מעוגלות */
+}
+
+.button:hover {
+  background-color: #4594a0; /* צבע רקע בעת העכברה */
+}
+
+
+
+  
+
+
+
